@@ -4,33 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>weather-app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
   </head>
-  <body>
-    <header>
-      <form>
-        <input type="Search" placeholder="Enter a city.." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
+  <div class="weather-app">
+    <body>
+      <header>
+        <form>
+          <div class="weather-app-input">
+            <input type="Search" placeholder="Enter a city.." required />
+          </div>
+          <div class="weather-app-button">
+            <input type="submit" value="Search" />
+          </div>
+        </form>
+      </header>
       <div>
-        <h1>Zimbabwe</h1>
-        <p>
-          Tuesday 14:50,scattered clouds
-          <br />
-          Humidity:50%, Wind 3.13km/h
-        </p>
+        <main>
+          <div>
+            <h1>Zimbabwe</h1>
+            <p>
+              Tuesday 14:50,scattered clouds
+              <br />
+              Humidity:50%, Wind 3.13km/h
+            </p>
+          </div>
+          <div>🌥️12°C</div>
+        </main>
+
+        <footer>
+          Coded by
+          <a href="https://github.com/yvettechakombera21-spec/">Yvette T</a
+          >hosted
+          <a
+            href="https://github.com/yvettechakombera21-spec/yvette-weather-app"
+            >github</a
+          >
+          code hosted
+          <a href="https://yvette-weather-app.netlify.app/">on netlify</a>
+        </footer>
       </div>
-      <div>🌥️12°C</div>
-    </main>
-    <footer>
-      Coded by
-      <a href="https://github.com/yvettechakombera21-spec/">Yvette T</a>hosted
-      <a href="https://github.com/yvettechakombera21-spec/yvette-weather-app"
-        >github</a
-      >
-      code hosted
-      <a href="https://yvette-weather-app.netlify.app/">on netlify</a>
-    </footer>
-  </body>
+    </body>
+  </div>
 </html>
