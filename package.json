@@ -1,17 +1,18 @@
 {
-    "name": " yvette-weather-app-project",
+    "name":  "yvette-weather-app-project",
     "version": "1.0.0",
     "description": "",
     "main": "index.html",
     "scripts": {
-        "start": "node index.js",
-    "build" :  "npm run build",
+        "start": "parcel index.html -- open",
+    "build" :  "emkdir -p dist && cp -r index.html dist/ || true"
+    
   
-    }
-    "dependencies": {},
+    },
+    "dependencies" :{}, 
     "devDependencies": {
         "@babel/core":"7.2.0",
         "parcel-bundler":"^1.6.1",
-    }
-}
-"keywords": []
+    },
+
+"keywords" : [] }
