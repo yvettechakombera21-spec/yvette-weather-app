@@ -2,7 +2,7 @@
     "name":  "yvette-weather-app-project",
     "version": "1.0.0",
     "description": "",
-    "main": "index.html/public",
+    "main": "index.html",
     "scripts": {
         "start": "react-scripts start",
     "build" : "npm run build"
