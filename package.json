@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.html/public",
     "scripts": {
-        "start": "parcel index.html -- open",
+        "start": "react-scripts start",
     "build" : "npm run build"
     
   
